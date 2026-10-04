@@ -1,0 +1,5 @@
+# local data (never commit)
+data/parquet/
+data/manifests/
+data/reports/
+__pycache__/
