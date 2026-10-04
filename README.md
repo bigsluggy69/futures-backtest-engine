@@ -18,8 +18,10 @@ futures_backtest/
 │   └── strategies/
 │       ├── base.py                   # Strategy interface
 │       └── pdh_pdl_breakout.py       # Strategy #1: PDH/PDL breakout-retest FSM
-├── tests/                            # unittest suite (39 tests)
-└── run_backtest.py                   # CLI entry point
+├── tests/                            # unittest suite (39 engine + 50 research-layer tests)
+├── run_backtest.py                   # CLI entry point
+├── grid_search.py                    # research layer: full-cartesian grid + CLI
+└── walk_forward.py                   # research layer: train/validate/test selection
 ```
 
 ## Running on your data
@@ -87,6 +89,74 @@ The suite proves the three core guarantees:
 6. **Spread & CLI** (`test_spread_and_cli.py`) — gappy/misaligned spread
    series never raise (ffill only, constant fallback); `--tick-value`
    overrides USD/tick end-to-end; `--volume-filter` is wired through.
+
+## Research layer: grid search + walk-forward
+
+```bash
+python grid_search.py data.csv --train-days 60 --validate-days 20 \
+    --test-days 20 --top-k 20 --out results/          # rolling (default)
+python grid_search.py data.csv --anchored --workers 4 --out results/
+python grid_search.py data.csv --grid my_grid.json --out results/
+python grid_search.py data.csv --grid-only --out results/   # in-sample, inspection only
+```
+
+`--grid` takes a JSON file or inline JSON of `{flag: [values]}`. Only what the
+engine supports can be gridded: `ema-ticks, expiry-min, stop-ticks,
+target-ticks, volume-filter, v1-mult, v2-mult, v4-pct, v5-mult, v6-range-mult,
+session-start, session-end, max-trades-per-day, cooldown-min`. ATR stops and
+trailing stops do not exist and are rejected, as are fixed engine settings
+(`--max-holding-min`, `--daily-loss-cap`, ...; pass those as flags). The default
+grid has 96 combinations. The grid imports the Engine API directly (a fresh
+`Engine` per combination) and a parity test checks it against `run_backtest.py`.
+
+**Anti-cherry-picking.** The grid layer never filters or ranks: every
+combination of the cartesian product is a row in the CSV, including zero-trade
+and losing ones. Same data + grid + seed gives a byte-identical CSV
+(`--workers` cannot change the bytes).
+
+**Walk-forward procedure** (per fold; calendar-day windows, half-open, disjoint):
+
+1. Full grid on **train** (`fold_NN_train_grid.csv`, unfiltered).
+2. Top-K distinct strategies by `--selection-metric` (`sharpe` or
+   `profit_factor`; `net_pnl` is rejected). Combos with fewer than
+   `--min-split-trades` trades are not candidates.
+3. Re-run the K on **validate**.
+4. Select ONE using train + validate only (`fold_NN_candidates.csv`):
+   (a) net P&L positive in BOTH train and validate (consistent sign of edge);
+   (b) net P&L still positive in both under doubled slippage
+   (`--slippage-multiplier`, commissions unchanged). Qualified candidates are
+   ranked by their **worst** split on the selection metric, so a consistent
+   performer beats a lopsided or high-return one.
+5. Run only that candidate on **test** (`walkforward_summary.csv`,
+   `walkforward_report.json`). (c) needs >= `--min-test-trades` (30) test
+   trades; this is a **verdict gate** (`INCONCLUSIVE_LOW_TEST_SAMPLE`), not a
+   selector: choosing a different candidate after seeing the test would be
+   selecting on the test set. If nothing qualifies the fold reports
+   `NO_QUALIFIED_CANDIDATE` and the test window is never run.
+
+`selection_criteria.json` (criteria, folds, grid) is written before any run.
+Each stage is handed only bars before its window end; `--warmup-days` of
+strictly-past bars are prepended for PDH/PDL and the 20-day volume medians, and
+trades taken during warmup are discarded.
+
+Cost: the engine runs ~9k 1m bars/s, so a 60-day 24h window is ~10 s per
+combination. Use `--workers`, and size the grid with that in mind.
+
+Additional `# UNDEFINED:` choices in the research layer (conservative):
+
+- **Windows** are calendar days (UTC), not trading days; a final partial test
+  window is dropped. Default `--step-days` = `--test-days` so test windows tile;
+  a smaller step makes them overlap and the report flags that totals double-count.
+- **Consistent sign of edge** = positive net P&L in both splits with at least
+  `--min-split-trades` (default 10) trades each. Consistently negative is not an
+  edge. Set it to 0 to drop the trade floor.
+- **Inert multipliers**: `v1-mult` etc. do nothing under other volume filters.
+  The CSV keeps every combination, but top-K counts distinct strategies and the
+  report gives both `grid_size` and `effective_grid_size` (the true trial count).
+- **Slippage stress** runs only for candidates that already pass (a); it cannot
+  change who qualifies, since qualifying needs (a) and (b).
+- **Warmup trades**: a warmup trade still open at the window start can block an
+  entry in the first bars (can only suppress a trade, never add one).
 
 ## Engine semantics (the reproducibility contract)
 
