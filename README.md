@@ -90,6 +90,26 @@ The suite proves the three core guarantees:
    series never raise (ffill only, constant fallback); `--tick-value`
    overrides USD/tick end-to-end; `--volume-filter` is wired through.
 
+## Data pipeline: DataBento pull
+
+`data/pull_databento.py` pulls `ohlcv-1m` bars for continuous front-month
+MES/MNQ/MGC from `GLBX.MDP3` into a canonical Parquet store
+(`data/parquet/<SYMBOL>/<YYYY-MM>.parquet`) with a manifest and validation
+report per pull. Billed `get_range` calls require `--confirm` and a
+`--max-cost` ceiling (default $25); the API key comes only from
+`DATABENTO_API_KEY`. Free `symbology.resolve` / `get_cost` calls run first —
+symbols are never guessed, and continuous-contract roll dates land in the
+manifest (prices are not back-adjusted). Re-runs are idempotent and monthly
+top-ups pull only the new range:
+
+```bash
+pip install databento pandas pyarrow
+export DATABENTO_API_KEY=...            # never hardcoded
+python data/pull_databento.py --start 2021-01-01 --end 2026-10-03        # estimate only
+python data/pull_databento.py --start 2021-01-01 --end 2026-10-03 --confirm  # billed
+python data/pull_databento.py --start 2026-11-01 --end 2026-11-30 --confirm  # monthly top-up
+```
+
 ## Research layer: grid search + walk-forward
 
 ```bash
