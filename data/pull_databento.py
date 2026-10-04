@@ -246,6 +246,20 @@ def estimate_cost(
 # ---------------------------------------------------------------------------
 # [4] Normalization
 # ---------------------------------------------------------------------------
+def _scale_price(s: pd.Series) -> pd.Series:
+    """Fixed-point int64 (1 unit = 1e-9) -> float; floats pass through.
+
+    databento's to_df() already scales prices to float in recent client
+    versions, while raw DBN/Arrow output is int64. Detect the dtype instead
+    of assuming, so a second division can never silently shrink prices 1e9x.
+    """
+    if pd.api.types.is_integer_dtype(s.dtype):
+        return s.astype("float64") / PRICE_SCALE
+    if pd.api.types.is_float_dtype(s.dtype):
+        return s.astype("float64")
+    raise RuntimeError(f"unexpected price dtype {s.dtype}; refusing to guess")
+
+
 def normalize(df: pd.DataFrame, sym: str) -> pd.DataFrame:
     """Return canonical frame: timestamp_utc, OHLC floats, volume int, symbol."""
     if isinstance(df.index, pd.DatetimeIndex) and df.index.name == "ts_event":
@@ -264,10 +278,10 @@ def normalize(df: pd.DataFrame, sym: str) -> pd.DataFrame:
     out = pd.DataFrame(
         {
             "timestamp_utc": ts,
-            "open": df["open"].astype("float64") / PRICE_SCALE,
-            "high": df["high"].astype("float64") / PRICE_SCALE,
-            "low": df["low"].astype("float64") / PRICE_SCALE,
-            "close": df["close"].astype("float64") / PRICE_SCALE,
+            "open": _scale_price(df["open"]),
+            "high": _scale_price(df["high"]),
+            "low": _scale_price(df["low"]),
+            "close": _scale_price(df["close"]),
             "volume": df["volume"].astype("int64"),
             "symbol": sym,
         }
