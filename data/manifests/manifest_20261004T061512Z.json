@@ -1,0 +1,2134 @@
+{
+  "pull_timestamp_utc": "2026-10-04T06:15:12.166230+00:00",
+  "dataset": "GLBX.MDP3",
+  "schema": "ohlcv-1m",
+  "date_range": {
+    "start": "2020-01-01",
+    "end": "2026-10-02"
+  },
+  "resolved_symbols": {
+    "MES": {
+      "symbol": "MES.v.0",
+      "roll_rule": "v",
+      "rank": 0
+    },
+    "MNQ": {
+      "symbol": "MNQ.v.0",
+      "roll_rule": "v",
+      "rank": 0
+    },
+    "MGC": {
+      "symbol": "MGC.v.0",
+      "roll_rule": "v",
+      "rank": 0
+    }
+  },
+  "estimated_credit_cost_usd": 25.895467102527,
+  "credit_cost_note": "pre-pull estimate from metadata.get_cost; actual billed cost may differ",
+  "billable_bytes": 397214944,
+  "partitions": [
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-01",
+      "path": "data/parquet/MES.v.0/2020-01.parquet",
+      "bars": 29456,
+      "sha256": "6649318a342694e5b5729fbc389419f35e640c85c626938c6e3da2b5b415cfff"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-02",
+      "path": "data/parquet/MES.v.0/2020-02.parquet",
+      "bars": 27013,
+      "sha256": "31cd1646a24f401c97aae82c57e029476dc35e32b806ac461276b026954783ab"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-03",
+      "path": "data/parquet/MES.v.0/2020-03.parquet",
+      "bars": 28389,
+      "sha256": "47d5b7e5c96bb74d7592bc7bf658b39292703c399e9e360d710d9e4241e3e35d"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-04",
+      "path": "data/parquet/MES.v.0/2020-04.parquet",
+      "bars": 28667,
+      "sha256": "cb92bb0310572d2483b9244b5dd6016102ff727a53e2f33646eaeea8dae35f85"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-05",
+      "path": "data/parquet/MES.v.0/2020-05.parquet",
+      "bars": 28440,
+      "sha256": "b3a2d4c0445bb565c362f5d6fcf1925731f38a2fdd4db5fb0dfaab5bebfda6ce"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-06",
+      "path": "data/parquet/MES.v.0/2020-06.parquet",
+      "bars": 29912,
+      "sha256": "5a021abf58537e5d885cd273a9fa57d4c6cea5e167c7445e8f15a670da1f32b4"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-07",
+      "path": "data/parquet/MES.v.0/2020-07.parquet",
+      "bars": 31049,
+      "sha256": "058eff3c98d9f4740f17687f59efe70706a3ea8a4213fd32bb22c146caf50dee"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-08",
+      "path": "data/parquet/MES.v.0/2020-08.parquet",
+      "bars": 28780,
+      "sha256": "d68479d6ae4e45c536c56571ce6e5c6340cec0f1f9315bf8cf22fe793d120b8d"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-09",
+      "path": "data/parquet/MES.v.0/2020-09.parquet",
+      "bars": 29804,
+      "sha256": "a5f93fd842abb75eb0cf0495dc94aafe942bd1a711938bad0982e24864af77a5"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-10",
+      "path": "data/parquet/MES.v.0/2020-10.parquet",
+      "bars": 29908,
+      "sha256": "c5880a34e984076f7c52101c51536e5429183e4898c72e81fc7d09c890697bef"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-11",
+      "path": "data/parquet/MES.v.0/2020-11.parquet",
+      "bars": 28288,
+      "sha256": "b71e3d00ef7a7931dba9589dd53af4e64ef517c27cc2f2d2d84c94eb1a45a039"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2020-12",
+      "path": "data/parquet/MES.v.0/2020-12.parquet",
+      "bars": 29739,
+      "sha256": "9dfa6546e120695b63565c991508db89f975bc2fb9c8482e13967d2d217f58e2"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-01",
+      "path": "data/parquet/MES.v.0/2021-01.parquet",
+      "bars": 27134,
+      "sha256": "26beaf146b4252d8ba41e145617d1b10f42cd82c8ac47ba0aceafa95d15f00d4"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-02",
+      "path": "data/parquet/MES.v.0/2021-02.parquet",
+      "bars": 27071,
+      "sha256": "38e806ce40bc9f1d3c0c82016ea32ffbd557befae6889867f75cb74d529bab96"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-03",
+      "path": "data/parquet/MES.v.0/2021-03.parquet",
+      "bars": 31454,
+      "sha256": "cd59cf9dbb960986ddeeb22e8933eb989289e279a39ce9b033a1a7de50975bd3"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-04",
+      "path": "data/parquet/MES.v.0/2021-04.parquet",
+      "bars": 29409,
+      "sha256": "698ed1c7112cc0730f48bc65fa5528f758c2632bf2ca841e659fd2c764c8cc27"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-05",
+      "path": "data/parquet/MES.v.0/2021-05.parquet",
+      "bars": 28552,
+      "sha256": "4e0fae1ba983d3c7f713093728251a5e35a1db8a117b13e15e48d009b83a6c7d"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-06",
+      "path": "data/parquet/MES.v.0/2021-06.parquet",
+      "bars": 30014,
+      "sha256": "3f096c729d75c1673b6f8c20237e5eca74d322c4ffb4aefce6e48f09a21ddd78"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-07",
+      "path": "data/parquet/MES.v.0/2021-07.parquet",
+      "bars": 29974,
+      "sha256": "45696b3abe7cfeb4107bdab0a8b2f8dc363c51fb0720d86f9b12f6500ac7c2eb"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-08",
+      "path": "data/parquet/MES.v.0/2021-08.parquet",
+      "bars": 30436,
+      "sha256": "6c2295501ebb77e5c7e7f173ba088a5965cd43612ad27295227dda0953c8bd2b"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-09",
+      "path": "data/parquet/MES.v.0/2021-09.parquet",
+      "bars": 30101,
+      "sha256": "622b14e637697b0197cb062c59d5735df370f10c2fe5a4032a5c755ff398d28d"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-10",
+      "path": "data/parquet/MES.v.0/2021-10.parquet",
+      "bars": 28979,
+      "sha256": "50a51994a529ac943e8352fb4a2707bd17d77f6a648fab2a12d35afd903cde92"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-11",
+      "path": "data/parquet/MES.v.0/2021-11.parquet",
+      "bars": 29819,
+      "sha256": "add4f845c1f6c3e6c34cf225170be549e7783dc1760d6ef21e4259565930a35c"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2021-12",
+      "path": "data/parquet/MES.v.0/2021-12.parquet",
+      "bars": 30287,
+      "sha256": "905e274c54c3f8b82be6667e02e7e031a71b1dfd2af398bbad93af407ce8eb5c"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-01",
+      "path": "data/parquet/MES.v.0/2022-01.parquet",
+      "bars": 28796,
+      "sha256": "4c3969f47f7e7869f554904bae3f8c00298cf221499a690d64c539041b056302"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-02",
+      "path": "data/parquet/MES.v.0/2022-02.parquet",
+      "bars": 27360,
+      "sha256": "d5ecf2f76cef71cdb85836d25d62a54b4e0e380c43a7f8544a4ad3abccc01011"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-03",
+      "path": "data/parquet/MES.v.0/2022-03.parquet",
+      "bars": 31800,
+      "sha256": "5b6c9d90451984d00ba8392647fa171b3d3be6554fe05fb0586bda62dd0b37ab"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-04",
+      "path": "data/parquet/MES.v.0/2022-04.parquet",
+      "bars": 27480,
+      "sha256": "21e8ba2fed6fb4bfb9ad92f698c1e15f9a9151f897ff134726997cea05232f3b"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-05",
+      "path": "data/parquet/MES.v.0/2022-05.parquet",
+      "bars": 30240,
+      "sha256": "0692350f1409e01918581060303bdc48703f056892110a1d013c2cccd021f517"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-06",
+      "path": "data/parquet/MES.v.0/2022-06.parquet",
+      "bars": 30120,
+      "sha256": "22f410fd95509a02782c69ae0c014de38fd0e2bc09a12b0d4ce7831e5f10f507"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-07",
+      "path": "data/parquet/MES.v.0/2022-07.parquet",
+      "bars": 28740,
+      "sha256": "9b7f7fe01ed0c95b4a89b7683f805bedd1509eb0f22b8c4147c06eedb1cac374"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-08",
+      "path": "data/parquet/MES.v.0/2022-08.parquet",
+      "bars": 31740,
+      "sha256": "34d08c298305b324b6f27232e08eb731d2f7a764327909f45ca3fe3ac03598cd"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-09",
+      "path": "data/parquet/MES.v.0/2022-09.parquet",
+      "bars": 29998,
+      "sha256": "79d89fb36e811034161aac663d060645bb452ceafca9c1b03f8cffeecdc72897"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-10",
+      "path": "data/parquet/MES.v.0/2022-10.parquet",
+      "bars": 29100,
+      "sha256": "57932ddc70867f8f58688861ff7da91c157986353457dc0a2f0bae17e4856aee"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-11",
+      "path": "data/parquet/MES.v.0/2022-11.parquet",
+      "bars": 29831,
+      "sha256": "cf6e17486ebb961251eee2e5a0885d6e5fa074e3cd764d41e9aeecbf7947b2a5"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2022-12",
+      "path": "data/parquet/MES.v.0/2022-12.parquet",
+      "bars": 28918,
+      "sha256": "c6876370acd94cc5bdcc07f22fffd01474a3ba5520fa2e90bf8410e92eb2d4af"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-01",
+      "path": "data/parquet/MES.v.0/2023-01.parquet",
+      "bars": 28800,
+      "sha256": "3d5097cebc114d82b5e10818d6bc525d6e3bd51950f5c10080275caf76043e4a"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-02",
+      "path": "data/parquet/MES.v.0/2023-02.parquet",
+      "bars": 27359,
+      "sha256": "d0ff99abf809693075557647e343decf73e29e6159bd31945b875ee2c6c4250a"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-03",
+      "path": "data/parquet/MES.v.0/2023-03.parquet",
+      "bars": 31678,
+      "sha256": "a9a1ce384a6463bc88c92e70400b96bd141b190f00839fc7b061dcc4ef13736e"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-04",
+      "path": "data/parquet/MES.v.0/2023-04.parquet",
+      "bars": 27230,
+      "sha256": "05f2db6a3d47810752c6e141b5847424bbc68391f7a4f205b421ac068dec156d"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-05",
+      "path": "data/parquet/MES.v.0/2023-05.parquet",
+      "bars": 31489,
+      "sha256": "bcf982381d9a8b764815cfe2182f0a0dcaba6a4ab7d6e4e53d3dd41549d7ccbc"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-06",
+      "path": "data/parquet/MES.v.0/2023-06.parquet",
+      "bars": 29978,
+      "sha256": "1ebba01344d92d991b92d06514e9f069d55d65e94f5de6365c5f296954f8a339"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-07",
+      "path": "data/parquet/MES.v.0/2023-07.parquet",
+      "bars": 28586,
+      "sha256": "532dcaf745f8fd70031b6e2ce86b2a53ebbc98bc075e2fd42db671ded80fbfc6"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-08",
+      "path": "data/parquet/MES.v.0/2023-08.parquet",
+      "bars": 31731,
+      "sha256": "e693dafe7df864a500df6429905a54ead3a4bdf1788d5a2b1d7becbf5af825be"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-09",
+      "path": "data/parquet/MES.v.0/2023-09.parquet",
+      "bars": 28581,
+      "sha256": "016d39d34629cb6fb7817d2997abc82179dd7efc9ae879d3ad4d7f3c86483633"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-10",
+      "path": "data/parquet/MES.v.0/2023-10.parquet",
+      "bars": 30477,
+      "sha256": "443b1a71ca926f6a2152229d5abaf62cf8038313cda7075336dddd03663a7d59"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-11",
+      "path": "data/parquet/MES.v.0/2023-11.parquet",
+      "bars": 29790,
+      "sha256": "f9a4dc764c226b0e6fe1027a43f1a5bce188a74f22759d213af9a123aee08ea6"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2023-12",
+      "path": "data/parquet/MES.v.0/2023-12.parquet",
+      "bars": 27478,
+      "sha256": "ab5380de290381b990f7897f12d0d49b04c34d7b27681acccd0129152eeb7323"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-01",
+      "path": "data/parquet/MES.v.0/2024-01.parquet",
+      "bars": 30161,
+      "sha256": "ea43719f92bcf79c859c522d6f2f4a94c867f0dab6cc392894ed4465e0b5296e"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-02",
+      "path": "data/parquet/MES.v.0/2024-02.parquet",
+      "bars": 28708,
+      "sha256": "4b9642cb1d1a2e68afec685cf5e625e845c2e443b69e7c3987e8eea3ae982cdc"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-03",
+      "path": "data/parquet/MES.v.0/2024-03.parquet",
+      "bars": 27648,
+      "sha256": "0653c78e148666fe672d4b315a782cae6f47ed638f092cd42a827c5e34280150"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-04",
+      "path": "data/parquet/MES.v.0/2024-04.parquet",
+      "bars": 30352,
+      "sha256": "968068e2d4e561bba85f606e469ab2a22cd9df1aa7c0a6fffe4f9b3ff18515ab"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-05",
+      "path": "data/parquet/MES.v.0/2024-05.parquet",
+      "bars": 31347,
+      "sha256": "811a73814954e9c85305dfdf4bae9612347fccb550accd8f9f66917eb7fa8940"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-06",
+      "path": "data/parquet/MES.v.0/2024-06.parquet",
+      "bars": 27425,
+      "sha256": "0d02920ca2b73d7a8945362d8b291988a21f361012a10ecda2b4cbbbf29e4b66"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-07",
+      "path": "data/parquet/MES.v.0/2024-07.parquet",
+      "bars": 31238,
+      "sha256": "3bf279cf38a63ccbfdb0eb500761c3542aab5aee65b2a3438145584666e9c4a5"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-08",
+      "path": "data/parquet/MES.v.0/2024-08.parquet",
+      "bars": 30240,
+      "sha256": "a9b93e8dcd4a6cc2cc7fbddfad027e70fbe9439e8d8613625099939bd5d81b18"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-09",
+      "path": "data/parquet/MES.v.0/2024-09.parquet",
+      "bars": 28849,
+      "sha256": "142181863df5f7f648ab8fb6305fc8976544dc6a7976ac3613ea608f0e7b1e6a"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-10",
+      "path": "data/parquet/MES.v.0/2024-10.parquet",
+      "bars": 31738,
+      "sha256": "93ae57e607a90170bb646ead30761d1950c4c0cab237a4f623128a5db5f3d39d"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-11",
+      "path": "data/parquet/MES.v.0/2024-11.parquet",
+      "bars": 28386,
+      "sha256": "3c5946eaea6796ed24be92aee635c48e7ee88b4e04963d74766d701ee6a7ed48"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2024-12",
+      "path": "data/parquet/MES.v.0/2024-12.parquet",
+      "bars": 28731,
+      "sha256": "93431a79891a47c3c2b8bb6dd586966002ea5bb404d8e95ebcd9fdba5a77b32f"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-01",
+      "path": "data/parquet/MES.v.0/2025-01.parquet",
+      "bars": 29670,
+      "sha256": "104a362bf26c436b3a04dd3c9072c76deb628bc0538b9a666b4eb5e2dd313a1e"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-02",
+      "path": "data/parquet/MES.v.0/2025-02.parquet",
+      "bars": 27359,
+      "sha256": "c54d3e5d2fc94591162acd715e7b5b0d272e4f353a1ba3516b67511b552d93bc"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-03",
+      "path": "data/parquet/MES.v.0/2025-03.parquet",
+      "bars": 29099,
+      "sha256": "9c324f19f68e9df6b87e7b5dd790de59b78e7453c0021f8c9ecee18e10a63cb9"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-04",
+      "path": "data/parquet/MES.v.0/2025-04.parquet",
+      "bars": 28979,
+      "sha256": "e2a142173abaa663ea01849b728848165de3fda0b06a55a4ec670282e9358658"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-05",
+      "path": "data/parquet/MES.v.0/2025-05.parquet",
+      "bars": 30000,
+      "sha256": "95da5fb0919aa3d45343dc0a3176862e94c362398bcb106045f9ffe9ca30e2c9"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-06",
+      "path": "data/parquet/MES.v.0/2025-06.parquet",
+      "bars": 28860,
+      "sha256": "9cdf5b7006d735b7ac4237f80219065876904f8a688460882eeb1e04318f7920"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-07",
+      "path": "data/parquet/MES.v.0/2025-07.parquet",
+      "bars": 31273,
+      "sha256": "2c7c714f1aa8e7106ecf07daedded8756056820d3002503c21ed5e7a7feedf3a"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-08",
+      "path": "data/parquet/MES.v.0/2025-08.parquet",
+      "bars": 28979,
+      "sha256": "b995331581ba7bd1bb28a2ff82f40e29f814e67af1d2eebbbe04b33ed4dc964e"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-09",
+      "path": "data/parquet/MES.v.0/2025-09.parquet",
+      "bars": 30113,
+      "sha256": "89bbe304cd884ce2b5d29f63936b930ab3bb9a082b98df6e25e1e3746b34d594"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-10",
+      "path": "data/parquet/MES.v.0/2025-10.parquet",
+      "bars": 31618,
+      "sha256": "4b2ed2c17e5581b0c06f0b6c15f7ebe199afa7236906770ad166ee54b8d45c54"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-11",
+      "path": "data/parquet/MES.v.0/2025-11.parquet",
+      "bars": 26550,
+      "sha256": "7c357c90b64e99b4793cd63025288a2fa5aa858b152ff1a63c4ac78a31c2154d"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2025-12",
+      "path": "data/parquet/MES.v.0/2025-12.parquet",
+      "bars": 30072,
+      "sha256": "bcd2331742e5b8d9b86b66264709392c8df1a0331a1dee1b349cffbafc187f4c"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-01",
+      "path": "data/parquet/MES.v.0/2026-01.parquet",
+      "bars": 28740,
+      "sha256": "283e4eb5165fc282a4e1ae16c39a816e2dd706705c5d4bfa6e0c76626babf1e9"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-02",
+      "path": "data/parquet/MES.v.0/2026-02.parquet",
+      "bars": 27360,
+      "sha256": "43d091d0a0d46b0655905b75535193dd6803ff7756b25bfcf7dfb2165d65a3a2"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-03",
+      "path": "data/parquet/MES.v.0/2026-03.parquet",
+      "bars": 30480,
+      "sha256": "3e24b3c91fb488ef48e745a6339ccc16a09868a2d181aabf3b4c095cd6210696"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-04",
+      "path": "data/parquet/MES.v.0/2026-04.parquet",
+      "bars": 29895,
+      "sha256": "a3f8096bac37d242156021365051dd13b6e2e9960fcf6ab03a4c7f02ddb287b4"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-05",
+      "path": "data/parquet/MES.v.0/2026-05.parquet",
+      "bars": 28740,
+      "sha256": "83706514b613e3e11c88708bfe04628e429d5422f1ee9514803329512dc40527"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-06",
+      "path": "data/parquet/MES.v.0/2026-06.parquet",
+      "bars": 30120,
+      "sha256": "b8ed0984e1551824cf2eab8bd66e299f351cad33c9aec7eb2a0322d64a49d238"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-07",
+      "path": "data/parquet/MES.v.0/2026-07.parquet",
+      "bars": 31380,
+      "sha256": "139f4ba84d97fb66f356149a213f774b08a699f7169c32398f0cd8f7308b8be5"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-08",
+      "path": "data/parquet/MES.v.0/2026-08.parquet",
+      "bars": 29100,
+      "sha256": "d6c9430622c412830e5c1f7bf0c475e249ad931abcb2d4b07d49bd3605287035"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-09",
+      "path": "data/parquet/MES.v.0/2026-09.parquet",
+      "bars": 30118,
+      "sha256": "512edb75bf483dfe52f5aa319b10cc774372583643913fb865bf9f1fcac4ea6f"
+    },
+    {
+      "symbol": "MES.v.0",
+      "month": "2026-10",
+      "path": "data/parquet/MES.v.0/2026-10.parquet",
+      "bars": 2640,
+      "sha256": "77470728532baafbd1826c7679642e65a12011144a5ab81d4dcd871e06c240fc"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-01",
+      "path": "data/parquet/MNQ.v.0/2020-01.parquet",
+      "bars": 29774,
+      "sha256": "2ba20bb35840d30990242a659e9bd041adb2bbfa0ac15c44cdf8f6ad234eb944"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-02",
+      "path": "data/parquet/MNQ.v.0/2020-02.parquet",
+      "bars": 27075,
+      "sha256": "3fa73bbb64649adfcc53ca3267ca355b070718745e9df2dc1fad02f372a8fa07"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-03",
+      "path": "data/parquet/MNQ.v.0/2020-03.parquet",
+      "bars": 28081,
+      "sha256": "0dbed28c2beeb5e8f3cea51847c54772d27bee68da931adf8a41656144db2232"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-04",
+      "path": "data/parquet/MNQ.v.0/2020-04.parquet",
+      "bars": 28667,
+      "sha256": "8ee54bb2d925af2b95ff47463391bffaf4f828f26d7fe63a9badcc4a707105f5"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-05",
+      "path": "data/parquet/MNQ.v.0/2020-05.parquet",
+      "bars": 28440,
+      "sha256": "d9f8fa61fc33bd7f40c432d3519704f4825964d4031f3d9f35f419f831d832b3"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-06",
+      "path": "data/parquet/MNQ.v.0/2020-06.parquet",
+      "bars": 29910,
+      "sha256": "9b8b576a19758cdf3a69bf4ba673c7afab328607e8da84ca0c2d7095fd87c736"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-07",
+      "path": "data/parquet/MNQ.v.0/2020-07.parquet",
+      "bars": 31050,
+      "sha256": "1a49224239dc3f5064c3223a8d2e439dc07d19e9a9d9ac70a092b048e5f8af53"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-08",
+      "path": "data/parquet/MNQ.v.0/2020-08.parquet",
+      "bars": 28785,
+      "sha256": "e17f059996a8bbf05d5d4e80a6332d4e807660c7e20c83f55e9a2b46837dae8f"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-09",
+      "path": "data/parquet/MNQ.v.0/2020-09.parquet",
+      "bars": 29802,
+      "sha256": "b08e1d4c303286589dc3472e86aff1cd341438674263bf3c8b41a01904a20c9b"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-10",
+      "path": "data/parquet/MNQ.v.0/2020-10.parquet",
+      "bars": 29910,
+      "sha256": "89178a6a5045675c872f0a2789fc0f7069e8facb32def716cd576319f649ee3c"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-11",
+      "path": "data/parquet/MNQ.v.0/2020-11.parquet",
+      "bars": 28288,
+      "sha256": "e48ca60a59b81c46f542d5756d2a2ee296e36f9fafeaa3ff8aa3328188fdf869"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2020-12",
+      "path": "data/parquet/MNQ.v.0/2020-12.parquet",
+      "bars": 29759,
+      "sha256": "9954b4ef4ae9e26a4106704ce7ff5ef881db6ed1bd70f5ce2e82b8440b7f8209"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-01",
+      "path": "data/parquet/MNQ.v.0/2021-01.parquet",
+      "bars": 27135,
+      "sha256": "e67fc8d03741b3d6533af10deb8dbfa40b752beae2024b3019208b73156c0b93"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-02",
+      "path": "data/parquet/MNQ.v.0/2021-02.parquet",
+      "bars": 27074,
+      "sha256": "7653fa535c6e25c442c69109d97426b4831b4a41a89c66c2221e119f78564698"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-03",
+      "path": "data/parquet/MNQ.v.0/2021-03.parquet",
+      "bars": 31454,
+      "sha256": "1b2093ac69d10a6f30015b42a1a68d296c4c515877e7b8a7e5aad16a8c219971"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-04",
+      "path": "data/parquet/MNQ.v.0/2021-04.parquet",
+      "bars": 29460,
+      "sha256": "7ddd1e36476ae78189722bd93956a9777f4cc2decccd6ccb2f01797c01497ebe"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-05",
+      "path": "data/parquet/MNQ.v.0/2021-05.parquet",
+      "bars": 28560,
+      "sha256": "e269f821c763ce83b511678e90419a437e5c6c4b5df9264ffe129ab69af41d78"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-06",
+      "path": "data/parquet/MNQ.v.0/2021-06.parquet",
+      "bars": 30071,
+      "sha256": "718f263453caf414b01dcdac1a209b48e5434e85a1c08af039b51475b8fff94d"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-07",
+      "path": "data/parquet/MNQ.v.0/2021-07.parquet",
+      "bars": 29998,
+      "sha256": "f2f267b77038b7bd687d58dc14931f37ea5844e04ba92cd4e6a444fcc46389d2"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-08",
+      "path": "data/parquet/MNQ.v.0/2021-08.parquet",
+      "bars": 30479,
+      "sha256": "a8c79cf0613bfcd4b933c9c4c3f84bab099bedad78b32d66e33bdd339edbc4e3"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-09",
+      "path": "data/parquet/MNQ.v.0/2021-09.parquet",
+      "bars": 30118,
+      "sha256": "b81de5bd228f7c759b1c482a05769c3891881cfb628fed0d799fadbc82a3c9a2"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-10",
+      "path": "data/parquet/MNQ.v.0/2021-10.parquet",
+      "bars": 28980,
+      "sha256": "5102bbe93d6d87f7154b5ca0d9fbf21c51bd9a679671b6c8dda5e18ac6f76345"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-11",
+      "path": "data/parquet/MNQ.v.0/2021-11.parquet",
+      "bars": 29835,
+      "sha256": "94e4d0ffdedbfd7b0e9b2b60c4f60f5d6db72928833e5eb2b7d67f142bcd5c04"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2021-12",
+      "path": "data/parquet/MNQ.v.0/2021-12.parquet",
+      "bars": 30300,
+      "sha256": "43ace9ebc3ce8c3313fdfa5529010a8de726008deefbb0e4a00ff2b8421347e1"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-01",
+      "path": "data/parquet/MNQ.v.0/2022-01.parquet",
+      "bars": 28800,
+      "sha256": "adfaf2efbb894d89c419bffde3eeff3ba20f4f4c7b7f4442a7407ce72adb79fb"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-02",
+      "path": "data/parquet/MNQ.v.0/2022-02.parquet",
+      "bars": 27360,
+      "sha256": "95b5af2954399556b91b1af8bc2009c5428947df9ed8fb3fafcfb7233b364d0b"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-03",
+      "path": "data/parquet/MNQ.v.0/2022-03.parquet",
+      "bars": 31800,
+      "sha256": "ca6aa147dcf45ad718554b3bee4f3fd5c171f46e78683748fdb10750455b602a"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-04",
+      "path": "data/parquet/MNQ.v.0/2022-04.parquet",
+      "bars": 27480,
+      "sha256": "59170a051312aa38dc27e2f726eaca4d3ee45ed21ad2f9be8d51cf7352772886"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-05",
+      "path": "data/parquet/MNQ.v.0/2022-05.parquet",
+      "bars": 30240,
+      "sha256": "3d9796ae0409db2f002347e76856c6dbe90d23a1e3ee880b4589366147670f89"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-06",
+      "path": "data/parquet/MNQ.v.0/2022-06.parquet",
+      "bars": 30120,
+      "sha256": "a83dadfe62366a0da1fa0438d20d28cc499592be9a9aa7d955748eff7597fc1e"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-07",
+      "path": "data/parquet/MNQ.v.0/2022-07.parquet",
+      "bars": 28740,
+      "sha256": "4c2b78c2e420722b95dcf6b96277bb9a8b8ba1cbfa2c8ac8961e795d2ba85861"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-08",
+      "path": "data/parquet/MNQ.v.0/2022-08.parquet",
+      "bars": 31740,
+      "sha256": "99871ea60ddcfe705592980d3d22ef135fcbb9e7fe70cc1396ccaa2dfaab0fa8"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-09",
+      "path": "data/parquet/MNQ.v.0/2022-09.parquet",
+      "bars": 30000,
+      "sha256": "b27e234d3ad67e750c0f2489bd1b6ab8c7302baa842cbc12bba226fc1a2f9124"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-10",
+      "path": "data/parquet/MNQ.v.0/2022-10.parquet",
+      "bars": 29100,
+      "sha256": "b94d2382c4ac1ad8cc5254ddbab9c9494b0685bc8280f87ad534eac4f9ca7815"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-11",
+      "path": "data/parquet/MNQ.v.0/2022-11.parquet",
+      "bars": 29835,
+      "sha256": "b6c56ffddb9aa921b192e66ab057823294e997c21f0a6114b3f6f761b76c336c"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2022-12",
+      "path": "data/parquet/MNQ.v.0/2022-12.parquet",
+      "bars": 28919,
+      "sha256": "cc065a4af399b0868b7cecb09a9f16f54a45b7c171af86e528133f11e322ae30"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-01",
+      "path": "data/parquet/MNQ.v.0/2023-01.parquet",
+      "bars": 28800,
+      "sha256": "62278b3e0270dcb1d4b2e606075e00ebe728c96ac741f7029facd8ba3edde024"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-02",
+      "path": "data/parquet/MNQ.v.0/2023-02.parquet",
+      "bars": 27360,
+      "sha256": "701b4f38c737bd1eeea956b0ba1a8f9eb5254899a15908e907cdf665f1ea380b"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-03",
+      "path": "data/parquet/MNQ.v.0/2023-03.parquet",
+      "bars": 31680,
+      "sha256": "f3b789ed76b77476cc3f6412b1cda393e1787df5b61b919e3a400bcd7e436bc6"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-04",
+      "path": "data/parquet/MNQ.v.0/2023-04.parquet",
+      "bars": 27255,
+      "sha256": "5cb3d34e4cddca6033e00a96debc137ef9f6512374a9d1fb866e295dc17b950c"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-05",
+      "path": "data/parquet/MNQ.v.0/2023-05.parquet",
+      "bars": 31500,
+      "sha256": "f6d72f95c42c0cd755eefc3f85ce0f2ef5ca55f492ce36e593322277d5997462"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-06",
+      "path": "data/parquet/MNQ.v.0/2023-06.parquet",
+      "bars": 30000,
+      "sha256": "aafd89f358052f7b4aca564d9492f1424dbd9844a95b68137cd89bffc9bb44c5"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-07",
+      "path": "data/parquet/MNQ.v.0/2023-07.parquet",
+      "bars": 28634,
+      "sha256": "916d634a7f46c7babc9b692d303ded3d4aff035d31f6af7a4192773240af5cb3"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-08",
+      "path": "data/parquet/MNQ.v.0/2023-08.parquet",
+      "bars": 31740,
+      "sha256": "710560a8a0d9f295a417b2d01ebae35eaa19cb1ee450a821df6ae0aaefdf176e"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-09",
+      "path": "data/parquet/MNQ.v.0/2023-09.parquet",
+      "bars": 28620,
+      "sha256": "3d0fdd9574911391ee456511bfbefc76c498888cddc255458487e54e72052b82"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-10",
+      "path": "data/parquet/MNQ.v.0/2023-10.parquet",
+      "bars": 30480,
+      "sha256": "777886576c97cb17733b1ed79ea14086c2795bf71516e08fe9c6a06b2865b816"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-11",
+      "path": "data/parquet/MNQ.v.0/2023-11.parquet",
+      "bars": 29835,
+      "sha256": "bcd7378ba3a04b22c0b326f3091acf52dc8165b65bed22ca1933022b8768d9c7"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2023-12",
+      "path": "data/parquet/MNQ.v.0/2023-12.parquet",
+      "bars": 27538,
+      "sha256": "13079794695781ab23f3c40a1b1bb0b24dd9e1c21099545778aa093583e30d13"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-01",
+      "path": "data/parquet/MNQ.v.0/2024-01.parquet",
+      "bars": 30180,
+      "sha256": "b6917f728f5941b393d842fdfb0dd3c4c891bc686924b8e847a250cf90286ce3"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-02",
+      "path": "data/parquet/MNQ.v.0/2024-02.parquet",
+      "bars": 28740,
+      "sha256": "c7f9fc4353de2915843b3a77fdf815734212b98cbadc345be45a47316367d922"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-03",
+      "path": "data/parquet/MNQ.v.0/2024-03.parquet",
+      "bars": 27660,
+      "sha256": "44a072870633add9c8291c557ec1d23e8cd7bd46f0ba3a5f64eafe8b3ebed248"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-04",
+      "path": "data/parquet/MNQ.v.0/2024-04.parquet",
+      "bars": 30360,
+      "sha256": "90b87d61f2545a0133400936a5acd7fdf535eccef8734386908ee53e798d5a58"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-05",
+      "path": "data/parquet/MNQ.v.0/2024-05.parquet",
+      "bars": 31380,
+      "sha256": "e70a1396c840f1ef60d257a98bdd5f72518b5c7ef5d84330a53d08ed5f7201ae"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-06",
+      "path": "data/parquet/MNQ.v.0/2024-06.parquet",
+      "bars": 27480,
+      "sha256": "63bd45d4871e091192d5f833d4ed2b12f765ba4c1f3542071ec02f39519d257e"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-07",
+      "path": "data/parquet/MNQ.v.0/2024-07.parquet",
+      "bars": 31275,
+      "sha256": "164218a26622541c2fe170c2a94f04280da4c1eb5e7f25c11ba502ccfad7e2b1"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-08",
+      "path": "data/parquet/MNQ.v.0/2024-08.parquet",
+      "bars": 30240,
+      "sha256": "2361299616fdb63bd14ac044fce6c527f8c69167624bf4af4bbe7dfd67690218"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-09",
+      "path": "data/parquet/MNQ.v.0/2024-09.parquet",
+      "bars": 28860,
+      "sha256": "1e90a5b6ac28d27eb935baa59cb560e27b36b4346154f8e67ad5edbc7e82d8c4"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-10",
+      "path": "data/parquet/MNQ.v.0/2024-10.parquet",
+      "bars": 31740,
+      "sha256": "c46fac5409ee35beee09cdc30495251562cd0f438b0c783b8b3ec70a5ca23a01"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-11",
+      "path": "data/parquet/MNQ.v.0/2024-11.parquet",
+      "bars": 28395,
+      "sha256": "ec7bdbb0791aa463adb99a50914d4589cbb0d9bcf5b59c44bb1a95361125d18b"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2024-12",
+      "path": "data/parquet/MNQ.v.0/2024-12.parquet",
+      "bars": 28754,
+      "sha256": "c8d3b3af29439865202140132c3ba9c2b690932fcd124454d1e4e01861ecbc83"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-01",
+      "path": "data/parquet/MNQ.v.0/2025-01.parquet",
+      "bars": 29670,
+      "sha256": "29505921ec1ce7c280be4671b49ac58ea70c17082d64782fe4036aabdac7fc69"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-02",
+      "path": "data/parquet/MNQ.v.0/2025-02.parquet",
+      "bars": 27360,
+      "sha256": "d27112052f24e8b8081be972f49666faec628a87aecc869782a88e426dc8be24"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-03",
+      "path": "data/parquet/MNQ.v.0/2025-03.parquet",
+      "bars": 29100,
+      "sha256": "2accaf3495a162d62395279f427ee24319407e1e5f9679ba688b525478659111"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-04",
+      "path": "data/parquet/MNQ.v.0/2025-04.parquet",
+      "bars": 28977,
+      "sha256": "36c21864b70426d85fa35b0c3a4c285a238b784cac1adf88d88aaa77bcfad71d"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-05",
+      "path": "data/parquet/MNQ.v.0/2025-05.parquet",
+      "bars": 30000,
+      "sha256": "9d00f1b20d345f0f969578acb7a36e38c6f0d7d45f7eb0cba0553bd2ed585aec"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-06",
+      "path": "data/parquet/MNQ.v.0/2025-06.parquet",
+      "bars": 28860,
+      "sha256": "0f97caed031710fb555d3511bfc7bd64bca1ca407e2b53021343c17cecdd906e"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-07",
+      "path": "data/parquet/MNQ.v.0/2025-07.parquet",
+      "bars": 31275,
+      "sha256": "02147579ec5c1239f4801eb8737b4c8a81576f473dfcea874dfa64dbafed94d3"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-08",
+      "path": "data/parquet/MNQ.v.0/2025-08.parquet",
+      "bars": 28980,
+      "sha256": "78fd6553f43db092ddbade3323fb8cdec9cef72089dfc8b4c413b14bc32c3caa"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-09",
+      "path": "data/parquet/MNQ.v.0/2025-09.parquet",
+      "bars": 30119,
+      "sha256": "1384c16bc2e8a2c9a88e46927167fc09a4dd71f91f75c8ab84df9f5ccb3a07e6"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-10",
+      "path": "data/parquet/MNQ.v.0/2025-10.parquet",
+      "bars": 31620,
+      "sha256": "a78c0356acf37d3c28e37079883c84fd350c40297ccb16af62155050e2ea9a8f"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-11",
+      "path": "data/parquet/MNQ.v.0/2025-11.parquet",
+      "bars": 26550,
+      "sha256": "7b91099d3ea8edf79393e9b5547ed316e0277e23b4809243a3b303d42b3f0fbd"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2025-12",
+      "path": "data/parquet/MNQ.v.0/2025-12.parquet",
+      "bars": 30075,
+      "sha256": "172ec3cd34e41ebc6d58c28e8e7a23e3182b5cc3cfa5c79935dad88c5a4228b0"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-01",
+      "path": "data/parquet/MNQ.v.0/2026-01.parquet",
+      "bars": 28740,
+      "sha256": "7c59d995f2aeb6e34ccf527ea94a387a8e48b6597ad2c71bef167d0f727e6bc6"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-02",
+      "path": "data/parquet/MNQ.v.0/2026-02.parquet",
+      "bars": 27360,
+      "sha256": "c1e9f11d71a2270f9c484357cf1dd2dbfb832e820a022b641d5cd44414cb7ec2"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-03",
+      "path": "data/parquet/MNQ.v.0/2026-03.parquet",
+      "bars": 30480,
+      "sha256": "200c340f7341907ea9bdf10510227f9926716042ea3d09f7fe35f9d1cfc75345"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-04",
+      "path": "data/parquet/MNQ.v.0/2026-04.parquet",
+      "bars": 29895,
+      "sha256": "42c6918602d919d0d35748c0b883bbd414076efc942539c1abbc906c1fd7647f"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-05",
+      "path": "data/parquet/MNQ.v.0/2026-05.parquet",
+      "bars": 28740,
+      "sha256": "f8d553eb1ffe6215cca7341a5a1400220c5bd1539f4e58be0889d871f04eb549"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-06",
+      "path": "data/parquet/MNQ.v.0/2026-06.parquet",
+      "bars": 30120,
+      "sha256": "6717ce7a8a9fe3bfd284fe07e2a3123a586db3692062479d63c7a1d8a52d2777"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-07",
+      "path": "data/parquet/MNQ.v.0/2026-07.parquet",
+      "bars": 31380,
+      "sha256": "85cd79f66cf04134b3d18757186537b020d97c1129da343d0440fbc208e0f91e"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-08",
+      "path": "data/parquet/MNQ.v.0/2026-08.parquet",
+      "bars": 29100,
+      "sha256": "2ff6116501ae277ebb9957bc7b0d29a241849fcf4c02becc508750a70341ccb8"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-09",
+      "path": "data/parquet/MNQ.v.0/2026-09.parquet",
+      "bars": 30120,
+      "sha256": "b04bcd0441c57c09b0def86809a8b580864dfecabe0e31a5061b0cae2342e1c0"
+    },
+    {
+      "symbol": "MNQ.v.0",
+      "month": "2026-10",
+      "path": "data/parquet/MNQ.v.0/2026-10.parquet",
+      "bars": 2640,
+      "sha256": "8af9f74c2d10104aef616c98913ece698a489e9a74313390243fc1323a799edd"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-01",
+      "path": "data/parquet/MGC.v.0/2020-01.parquet",
+      "bars": 27138,
+      "sha256": "edf2577f7ec160f930c7803d39f6e3a62c60a8916b01dee9a5f7858322cd005b"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-02",
+      "path": "data/parquet/MGC.v.0/2020-02.parquet",
+      "bars": 25240,
+      "sha256": "1b617db008c078825f15eaa045ec20bbcec24ac60047e38ae421569f51b4b244"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-03",
+      "path": "data/parquet/MGC.v.0/2020-03.parquet",
+      "bars": 27870,
+      "sha256": "c5ec58b2451b7fc2be78c8b72bed4d1dacf974c76b88899a83625447378b8320"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-04",
+      "path": "data/parquet/MGC.v.0/2020-04.parquet",
+      "bars": 28880,
+      "sha256": "bd145da74f7b0f3972b2c9922dd7f54933b54544b13329bbc367c5b05f11e3ab"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-05",
+      "path": "data/parquet/MGC.v.0/2020-05.parquet",
+      "bars": 26468,
+      "sha256": "bd830357eaacce491c754828b8f66afb6c0570ef65c9e2b0957d531cb4e91c35"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-06",
+      "path": "data/parquet/MGC.v.0/2020-06.parquet",
+      "bars": 29698,
+      "sha256": "aacc79647735506304e85bf779884fd571659ed6f1fdb9776cc22aef43cc1ce2"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-07",
+      "path": "data/parquet/MGC.v.0/2020-07.parquet",
+      "bars": 29263,
+      "sha256": "1e639f504351d917e7e2f38d52413d68e943cb6bf85716228be59316e1fe369b"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-08",
+      "path": "data/parquet/MGC.v.0/2020-08.parquet",
+      "bars": 29065,
+      "sha256": "0b53ec3c158c84a65186a4d9a83871e0af879a19c41eb831e45d1550acc7dbe4"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-09",
+      "path": "data/parquet/MGC.v.0/2020-09.parquet",
+      "bars": 30028,
+      "sha256": "193bdfd61613c290f929dcb2a8e5d3d8e57512c2fc1f6875824c3706230b1e9c"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-10",
+      "path": "data/parquet/MGC.v.0/2020-10.parquet",
+      "bars": 30080,
+      "sha256": "6d3f34f8f67c03a9657bc02cd6fb25b941d60cbf36040b5d29edc72b975460be"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-11",
+      "path": "data/parquet/MGC.v.0/2020-11.parquet",
+      "bars": 27417,
+      "sha256": "ff50d24a0580865393d04ebaa0d4483a6a8ce7598ba247569c47e55c063b1544"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2020-12",
+      "path": "data/parquet/MGC.v.0/2020-12.parquet",
+      "bars": 29906,
+      "sha256": "465f824bb2d1830c4276935e14cf115fc637e803878ea4358f0f5a03bb020960"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-01",
+      "path": "data/parquet/MGC.v.0/2021-01.parquet",
+      "bars": 25404,
+      "sha256": "f318edff993c9698011f418b27fec24677b6b26349167dc5cca1b317de3a8a20"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-02",
+      "path": "data/parquet/MGC.v.0/2021-02.parquet",
+      "bars": 27258,
+      "sha256": "38eb6aa54a1baccc66381cbb0a17a1b5deff3f4e82ee1e507ce46ab8857d9c5e"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-03",
+      "path": "data/parquet/MGC.v.0/2021-03.parquet",
+      "bars": 29421,
+      "sha256": "91ff731d0487151dfdc3ce0f950a842cd24be7e90d09a874e535e77f26cb93ee"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-04",
+      "path": "data/parquet/MGC.v.0/2021-04.parquet",
+      "bars": 28173,
+      "sha256": "c281fcad21b1b17eed392ab2ee1e4f7cbd9a40dea3d53d86e55c92e03f815304"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-05",
+      "path": "data/parquet/MGC.v.0/2021-05.parquet",
+      "bars": 26527,
+      "sha256": "3a7ad0caec6a8144714149f98abbfbea06ac58752d25b5f903579c38961af27b"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-06",
+      "path": "data/parquet/MGC.v.0/2021-06.parquet",
+      "bars": 29849,
+      "sha256": "12ac43a604bd10899c4366bcef9d94ce0374be8cba2172242eb1810d22503228"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-07",
+      "path": "data/parquet/MGC.v.0/2021-07.parquet",
+      "bars": 27414,
+      "sha256": "68885148589e32b59747b6b45f9967edc168d43a245adb26371c6ae0d42b833a"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-08",
+      "path": "data/parquet/MGC.v.0/2021-08.parquet",
+      "bars": 29303,
+      "sha256": "4b77037887265f0c2096cc49c6de7a612ea2ed2e9001df6acc5323ca93359156"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-09",
+      "path": "data/parquet/MGC.v.0/2021-09.parquet",
+      "bars": 29071,
+      "sha256": "f750c33b2f613fb64159a4f8e9c529d4cc32ce186bf8765f4b451b85a79d93c1"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-10",
+      "path": "data/parquet/MGC.v.0/2021-10.parquet",
+      "bars": 28389,
+      "sha256": "e4fcfee5183ce6380a0242a662400b6bba2af21b7d49861544aa64a4b8ba3451"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-11",
+      "path": "data/parquet/MGC.v.0/2021-11.parquet",
+      "bars": 27397,
+      "sha256": "02ff9c07f8a0200783774930cd32efdd2da98df38ae2b52253b25643318c8619"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2021-12",
+      "path": "data/parquet/MGC.v.0/2021-12.parquet",
+      "bars": 29314,
+      "sha256": "9896ee7b227a86be3dee42f40f4209c4cd603338bc6840801336bfa104246429"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-01",
+      "path": "data/parquet/MGC.v.0/2022-01.parquet",
+      "bars": 27295,
+      "sha256": "56ff15b20f5b92542b1f240f3e156b817676d93b19a0b55e8f60df0bb66b452d"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-02",
+      "path": "data/parquet/MGC.v.0/2022-02.parquet",
+      "bars": 26883,
+      "sha256": "e123f2bf6b68e4409e31040ff1792fa8f3915cda10040da5f5b3c106907b6104"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-03",
+      "path": "data/parquet/MGC.v.0/2022-03.parquet",
+      "bars": 29461,
+      "sha256": "5cf4bfd8f5f5d48622efe48ba1441b111c2dd3f61658fc3e9a8fa669408b0df5"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-04",
+      "path": "data/parquet/MGC.v.0/2022-04.parquet",
+      "bars": 27230,
+      "sha256": "35e7468b99c35a863fcb1bfdba2e279757633a95130dc4679f24766761e8ec08"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-05",
+      "path": "data/parquet/MGC.v.0/2022-05.parquet",
+      "bars": 29063,
+      "sha256": "ecfbdfc7ede3761c43e40f85a8e60f720d8a87c33ba343dd1a1ffa14e6b2f796"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-06",
+      "path": "data/parquet/MGC.v.0/2022-06.parquet",
+      "bars": 29433,
+      "sha256": "f02a15427b83ac526dcd24b668e60c34a9eba10a27da33cb851d7bd24d30812b"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-07",
+      "path": "data/parquet/MGC.v.0/2022-07.parquet",
+      "bars": 26376,
+      "sha256": "ac0c3d78a6345cb3f69130d40d6b20bc217066aded27e701e2c33693b01a5b32"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-08",
+      "path": "data/parquet/MGC.v.0/2022-08.parquet",
+      "bars": 30715,
+      "sha256": "f3e23dc991b4b609d7e75ee913d219a5f7d5566a9f7f523138da0f2cf1539ee8"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-09",
+      "path": "data/parquet/MGC.v.0/2022-09.parquet",
+      "bars": 29583,
+      "sha256": "5fcd0ac793f72f42939a7f0d411355dcc8166f0cf37fdf6db6d5f1566321f1fc"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-10",
+      "path": "data/parquet/MGC.v.0/2022-10.parquet",
+      "bars": 28630,
+      "sha256": "c583294c7fc44e0c2db2c6324f2baa7ab930cb1cfb6398734aa63de5b74c6b84"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-11",
+      "path": "data/parquet/MGC.v.0/2022-11.parquet",
+      "bars": 27430,
+      "sha256": "b080b7b0c02c4b297578fdeebace26127e991854b792417b2085379d1d3264d2"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2022-12",
+      "path": "data/parquet/MGC.v.0/2022-12.parquet",
+      "bars": 28443,
+      "sha256": "48f8873438c33df69ea0ab7093ee8bfb094644d67ebce97d12740df33d12c690"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-01",
+      "path": "data/parquet/MGC.v.0/2023-01.parquet",
+      "bars": 26582,
+      "sha256": "0a351f75f12c5663523e0c3261a30767328bf67eebfff184e64a700c7e675a97"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-02",
+      "path": "data/parquet/MGC.v.0/2023-02.parquet",
+      "bars": 27155,
+      "sha256": "eaf8f5e6343ef08233493109a6b88053f7fcffef38926c62d9f472a41efda2b7"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-03",
+      "path": "data/parquet/MGC.v.0/2023-03.parquet",
+      "bars": 29333,
+      "sha256": "160a85cdc6f3b895457af408d3a4b49c73477d91f2b6367db75f73ecaa7ab4f5"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-04",
+      "path": "data/parquet/MGC.v.0/2023-04.parquet",
+      "bars": 26119,
+      "sha256": "44c99b48041e32772ce078fcef88fd0d5550375c244b05dc672108f54d172971"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-05",
+      "path": "data/parquet/MGC.v.0/2023-05.parquet",
+      "bars": 28785,
+      "sha256": "22668c4960e7f99e6aa1e4293046b2d769d739ccc3e4c7562725c0b9eef783f4"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-06",
+      "path": "data/parquet/MGC.v.0/2023-06.parquet",
+      "bars": 29728,
+      "sha256": "a1b84287016ad36f2e38012e0fef70893f86d3f0cccd8a3c5c4b593a7e04de2a"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-07",
+      "path": "data/parquet/MGC.v.0/2023-07.parquet",
+      "bars": 27648,
+      "sha256": "b8251995a99961f9aced8251ee9e8016a7a8354335a384fad997fa20c675efcf"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-08",
+      "path": "data/parquet/MGC.v.0/2023-08.parquet",
+      "bars": 30700,
+      "sha256": "6729898c0abd291817c0dd227acf239d68fb1f9ce8edf81e638fb84e4f31493b"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-09",
+      "path": "data/parquet/MGC.v.0/2023-09.parquet",
+      "bars": 27462,
+      "sha256": "685e6974e8f1454589f8633e387f63680c4b8ea4f45584700d5614b04cd0606d"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-10",
+      "path": "data/parquet/MGC.v.0/2023-10.parquet",
+      "bars": 30088,
+      "sha256": "eb5ebde732ead79593e15b94af3de46070ca6b978caf2451ccfe91baa9adce63"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-11",
+      "path": "data/parquet/MGC.v.0/2023-11.parquet",
+      "bars": 28755,
+      "sha256": "0a39e0132b8bc6ce48f0b0428220a5f96238342ab26d62cb8449a162408c5438"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2023-12",
+      "path": "data/parquet/MGC.v.0/2023-12.parquet",
+      "bars": 27378,
+      "sha256": "cd834abb31de34929fc63de929d0f04fe0f8dbfa757626aa3c0ef56dd5874949"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-01",
+      "path": "data/parquet/MGC.v.0/2024-01.parquet",
+      "bars": 29130,
+      "sha256": "001da4b1f8a3d7bd672501c1e49a1e0b0319d277ff1531c2b7d601815ffe5b1c"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-02",
+      "path": "data/parquet/MGC.v.0/2024-02.parquet",
+      "bars": 28266,
+      "sha256": "025aeed00dfe023a950f1f007f250c789672e5c979a3e8a758bba637a834a0ab"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-03",
+      "path": "data/parquet/MGC.v.0/2024-03.parquet",
+      "bars": 25445,
+      "sha256": "938254c4e5f026ad3b0209a5595927c69c45448602fc1cbe0d1ced4eb82948be"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-04",
+      "path": "data/parquet/MGC.v.0/2024-04.parquet",
+      "bars": 30345,
+      "sha256": "fd3803be9f8638ba2cff842c1a7d7bf86481ccb4b5c45f06cad1c1dae89fb851"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-05",
+      "path": "data/parquet/MGC.v.0/2024-05.parquet",
+      "bars": 29412,
+      "sha256": "49e5a6e885b8a5b39647470e2ceb6c7e943a983db80c265be0ca45f99a425939"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-06",
+      "path": "data/parquet/MGC.v.0/2024-06.parquet",
+      "bars": 27445,
+      "sha256": "d1efad0e42fecdc687d93a515b731f08a3507e1a6ddec819ea09438e1ab99cb6"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-07",
+      "path": "data/parquet/MGC.v.0/2024-07.parquet",
+      "bars": 29328,
+      "sha256": "bcfd899f9c279dcf149823ea88f1a7cd7fe1f85ab5f6e894cfb41a8fa7ff7e99"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-08",
+      "path": "data/parquet/MGC.v.0/2024-08.parquet",
+      "bars": 30215,
+      "sha256": "929274dfe77aeeb1e7c79a9f3a71c254362ba77171c5cde0df0d25fcf30d8eb1"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-09",
+      "path": "data/parquet/MGC.v.0/2024-09.parquet",
+      "bars": 28880,
+      "sha256": "0b501435bb27c1c4ae5725dd69362d5a346a3077c6c3989949cc666a14f8ffbe"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-10",
+      "path": "data/parquet/MGC.v.0/2024-10.parquet",
+      "bars": 31692,
+      "sha256": "ea9bcb39ce796d712100c7d339e2929f6fa2b6afb6fb5635f2a80419835717eb"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-11",
+      "path": "data/parquet/MGC.v.0/2024-11.parquet",
+      "bars": 26828,
+      "sha256": "cabe687d4472d5230b39f31e6b4c6ca61f41d2ab032033d791805f0277812135"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2024-12",
+      "path": "data/parquet/MGC.v.0/2024-12.parquet",
+      "bars": 28774,
+      "sha256": "ae7cc70df6024f7feb9a8e237dfa064a9213845d27b107edcc01574c4716c6c5"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-01",
+      "path": "data/parquet/MGC.v.0/2025-01.parquet",
+      "bars": 28131,
+      "sha256": "2581a3a9ca526758a8254fe63049b1b3f325e8d97336b2257a8e4061adee5ec0"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-02",
+      "path": "data/parquet/MGC.v.0/2025-02.parquet",
+      "bars": 27444,
+      "sha256": "97dcdd1b0de29b95813065c615173b5b3513165d463a00265e7d4ffe7b73fac2"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-03",
+      "path": "data/parquet/MGC.v.0/2025-03.parquet",
+      "bars": 28515,
+      "sha256": "9d43f27ac08325caf43ace322372de4fa54862fb229eb4b3a848c375d320f21f"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-04",
+      "path": "data/parquet/MGC.v.0/2025-04.parquet",
+      "bars": 28980,
+      "sha256": "416920e06637abc8e63f7564d4a497513ea38dfef9c4101c1558a00af36f4614"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-05",
+      "path": "data/parquet/MGC.v.0/2025-05.parquet",
+      "bars": 29532,
+      "sha256": "a99b9ce0e771e26b9a8e890e8ffe8add510a36f3d8753d6365a6f885928e58e7"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-06",
+      "path": "data/parquet/MGC.v.0/2025-06.parquet",
+      "bars": 28950,
+      "sha256": "2a99d348d7f5fdbfd3bf850cc058ad4193558dbc4add87dd1f667cbca22a9ec6"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-07",
+      "path": "data/parquet/MGC.v.0/2025-07.parquet",
+      "bars": 30838,
+      "sha256": "bab564e55702d98fd99b18bf6aa61ca286c784ceb34dfd0403e5481e91b97239"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-08",
+      "path": "data/parquet/MGC.v.0/2025-08.parquet",
+      "bars": 28979,
+      "sha256": "3f0ed56a13d861d932a10ed6f567c1cac233ed934f0fc2a79ae9edcd3244da2b"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-09",
+      "path": "data/parquet/MGC.v.0/2025-09.parquet",
+      "bars": 30210,
+      "sha256": "7d7ab2d7c01caef5aa8ffd4fbe43ac0508ff2a320d34285090e0817c08307c7a"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-10",
+      "path": "data/parquet/MGC.v.0/2025-10.parquet",
+      "bars": 31620,
+      "sha256": "0183d0bdd107bad1d96346440dac6cd70b1eebc0c53f819b0ad6a4adcd2c84f0"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-11",
+      "path": "data/parquet/MGC.v.0/2025-11.parquet",
+      "bars": 26301,
+      "sha256": "e1eb68ab761e44bade1f1225384a04d633c23bd6a3e88e0660734e3ba17f9398"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2025-12",
+      "path": "data/parquet/MGC.v.0/2025-12.parquet",
+      "bars": 30105,
+      "sha256": "1291f0a8880b98bdec0f62fe3ad5a02a99ee886591ae9919adda1a5f0757ee92"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-01",
+      "path": "data/parquet/MGC.v.0/2026-01.parquet",
+      "bars": 28385,
+      "sha256": "7d3a9714e6c7e39581fabeaba4af91e26392ea1d9f3018228903d74410969ffb"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-02",
+      "path": "data/parquet/MGC.v.0/2026-02.parquet",
+      "bars": 27346,
+      "sha256": "2bb9b096d5fdd0862a640695af0bea43cf72f3c2d0bb28f952d1d8e300ae2ff4"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-03",
+      "path": "data/parquet/MGC.v.0/2026-03.parquet",
+      "bars": 30467,
+      "sha256": "7898ef79473b3c8013fd9819219d46c24b5ef6536c0b494ccae82bb9cb8adb9d"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-04",
+      "path": "data/parquet/MGC.v.0/2026-04.parquet",
+      "bars": 28980,
+      "sha256": "4c6d6e357241817b9d9869c3087e57693a758eaf64e8a1cdc3ec6b5597dac608"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-05",
+      "path": "data/parquet/MGC.v.0/2026-05.parquet",
+      "bars": 28205,
+      "sha256": "bd898728b549e9666f7a62b14b45c4157415c493249ef68c02cc235b824733f9"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-06",
+      "path": "data/parquet/MGC.v.0/2026-06.parquet",
+      "bars": 30120,
+      "sha256": "3539bd25acbbadb79f157bd09274a5551716f29bbce79c37cc9db57fb881da5b"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-07",
+      "path": "data/parquet/MGC.v.0/2026-07.parquet",
+      "bars": 30709,
+      "sha256": "83b5f8e1dc4655a05f4dcbe0b80422bd40a4d43719ead0a05d8e1373a1f757a1"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-08",
+      "path": "data/parquet/MGC.v.0/2026-08.parquet",
+      "bars": 29100,
+      "sha256": "287273562982d090fd6675c9f1aa998ea37169d919ca9fd57a8915709487f3a6"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-09",
+      "path": "data/parquet/MGC.v.0/2026-09.parquet",
+      "bars": 30210,
+      "sha256": "9fb55dd11b6b5a5944be6c13a63064670ec366d672269cce6261aa09da9700a4"
+    },
+    {
+      "symbol": "MGC.v.0",
+      "month": "2026-10",
+      "path": "data/parquet/MGC.v.0/2026-10.parquet",
+      "bars": 2640,
+      "sha256": "766b35ee28b727fb29fc2b28186100347446a6d2f6de575a0bbdc3faeaaa5830"
+    }
+  ],
+  "rolls": {
+    "MES.v.0": [
+      {
+        "date": "2020-01-01",
+        "instrument_id": "8001"
+      },
+      {
+        "date": "2020-03-16",
+        "instrument_id": "8034"
+      },
+      {
+        "date": "2020-06-15",
+        "instrument_id": "20871"
+      },
+      {
+        "date": "2020-09-14",
+        "instrument_id": "24948"
+      },
+      {
+        "date": "2020-12-14",
+        "instrument_id": "8963"
+      },
+      {
+        "date": "2021-03-15",
+        "instrument_id": "18659"
+      },
+      {
+        "date": "2021-06-14",
+        "instrument_id": "2055"
+      },
+      {
+        "date": "2021-09-13",
+        "instrument_id": "3196"
+      },
+      {
+        "date": "2021-12-13",
+        "instrument_id": "11355"
+      },
+      {
+        "date": "2022-03-14",
+        "instrument_id": "13615"
+      },
+      {
+        "date": "2022-06-13",
+        "instrument_id": "10039"
+      },
+      {
+        "date": "2022-09-14",
+        "instrument_id": "10299"
+      },
+      {
+        "date": "2022-12-14",
+        "instrument_id": "2080"
+      },
+      {
+        "date": "2023-03-15",
+        "instrument_id": "9270"
+      },
+      {
+        "date": "2023-06-14",
+        "instrument_id": "2922"
+      },
+      {
+        "date": "2023-09-13",
+        "instrument_id": "24925"
+      },
+      {
+        "date": "2023-12-13",
+        "instrument_id": "763"
+      },
+      {
+        "date": "2024-03-13",
+        "instrument_id": "13804"
+      },
+      {
+        "date": "2024-06-19",
+        "instrument_id": "7114"
+      },
+      {
+        "date": "2024-09-18",
+        "instrument_id": "42034014"
+      },
+      {
+        "date": "2024-12-18",
+        "instrument_id": "42005347"
+      },
+      {
+        "date": "2025-03-19",
+        "instrument_id": "42003627"
+      },
+      {
+        "date": "2025-06-18",
+        "instrument_id": "42002651"
+      },
+      {
+        "date": "2025-09-17",
+        "instrument_id": "42004164"
+      },
+      {
+        "date": "2025-12-17",
+        "instrument_id": "42003800"
+      },
+      {
+        "date": "2026-03-18",
+        "instrument_id": "42005163"
+      },
+      {
+        "date": "2026-06-17",
+        "instrument_id": "42003239"
+      },
+      {
+        "date": "2026-09-16",
+        "instrument_id": "42001581"
+      }
+    ],
+    "MNQ.v.0": [
+      {
+        "date": "2020-01-01",
+        "instrument_id": "8196"
+      },
+      {
+        "date": "2020-03-16",
+        "instrument_id": "8204"
+      },
+      {
+        "date": "2020-06-17",
+        "instrument_id": "13081"
+      },
+      {
+        "date": "2020-09-16",
+        "instrument_id": "17706"
+      },
+      {
+        "date": "2020-12-14",
+        "instrument_id": "6227"
+      },
+      {
+        "date": "2021-03-17",
+        "instrument_id": "9485"
+      },
+      {
+        "date": "2021-06-14",
+        "instrument_id": "3601"
+      },
+      {
+        "date": "2021-09-13",
+        "instrument_id": "1447"
+      },
+      {
+        "date": "2021-12-13",
+        "instrument_id": "7575"
+      },
+      {
+        "date": "2022-03-16",
+        "instrument_id": "13505"
+      },
+      {
+        "date": "2022-06-15",
+        "instrument_id": "7688"
+      },
+      {
+        "date": "2022-09-14",
+        "instrument_id": "20332"
+      },
+      {
+        "date": "2022-12-14",
+        "instrument_id": "8071"
+      },
+      {
+        "date": "2023-03-15",
+        "instrument_id": "4973"
+      },
+      {
+        "date": "2023-06-14",
+        "instrument_id": "9235"
+      },
+      {
+        "date": "2023-09-13",
+        "instrument_id": "34070"
+      },
+      {
+        "date": "2023-12-14",
+        "instrument_id": "7101"
+      },
+      {
+        "date": "2024-03-13",
+        "instrument_id": "10"
+      },
+      {
+        "date": "2024-06-19",
+        "instrument_id": "13941"
+      },
+      {
+        "date": "2024-09-18",
+        "instrument_id": "42008411"
+      },
+      {
+        "date": "2024-12-19",
+        "instrument_id": "42003617"
+      },
+      {
+        "date": "2025-03-20",
+        "instrument_id": "42009475"
+      },
+      {
+        "date": "2025-06-18",
+        "instrument_id": "42003472"
+      },
+      {
+        "date": "2025-09-18",
+        "instrument_id": "42001149"
+      },
+      {
+        "date": "2025-12-18",
+        "instrument_id": "42004946"
+      },
+      {
+        "date": "2026-03-19",
+        "instrument_id": "42004936"
+      },
+      {
+        "date": "2026-06-17",
+        "instrument_id": "42004800"
+      },
+      {
+        "date": "2026-09-17",
+        "instrument_id": "42005282"
+      }
+    ],
+    "MGC.v.0": [
+      {
+        "date": "2020-01-01",
+        "instrument_id": "108256"
+      },
+      {
+        "date": "2020-02-02",
+        "instrument_id": "731"
+      },
+      {
+        "date": "2020-04-01",
+        "instrument_id": "147218"
+      },
+      {
+        "date": "2020-05-31",
+        "instrument_id": "138464"
+      },
+      {
+        "date": "2020-08-02",
+        "instrument_id": "1016"
+      },
+      {
+        "date": "2020-11-30",
+        "instrument_id": "42317"
+      },
+      {
+        "date": "2021-01-31",
+        "instrument_id": "224"
+      },
+      {
+        "date": "2021-04-01",
+        "instrument_id": "81409"
+      },
+      {
+        "date": "2021-05-30",
+        "instrument_id": "30106"
+      },
+      {
+        "date": "2021-08-01",
+        "instrument_id": "4057"
+      },
+      {
+        "date": "2021-12-01",
+        "instrument_id": "19159"
+      },
+      {
+        "date": "2022-01-31",
+        "instrument_id": "1097"
+      },
+      {
+        "date": "2022-04-01",
+        "instrument_id": "19256"
+      },
+      {
+        "date": "2022-05-30",
+        "instrument_id": "7370"
+      },
+      {
+        "date": "2022-07-31",
+        "instrument_id": "37691"
+      },
+      {
+        "date": "2022-12-01",
+        "instrument_id": "3074"
+      },
+      {
+        "date": "2023-02-01",
+        "instrument_id": "2694"
+      },
+      {
+        "date": "2023-04-02",
+        "instrument_id": "12437"
+      },
+      {
+        "date": "2023-06-01",
+        "instrument_id": "18376"
+      },
+      {
+        "date": "2023-07-31",
+        "instrument_id": "35696"
+      },
+      {
+        "date": "2023-11-30",
+        "instrument_id": "42107"
+      },
+      {
+        "date": "2024-01-31",
+        "instrument_id": "45014"
+      },
+      {
+        "date": "2024-03-29",
+        "instrument_id": "3228"
+      },
+      {
+        "date": "2024-06-02",
+        "instrument_id": "1798"
+      },
+      {
+        "date": "2024-08-01",
+        "instrument_id": "1974"
+      },
+      {
+        "date": "2024-11-29",
+        "instrument_id": "69"
+      },
+      {
+        "date": "2025-02-02",
+        "instrument_id": "16654"
+      },
+      {
+        "date": "2025-03-31",
+        "instrument_id": "4119885"
+      },
+      {
+        "date": "2025-05-30",
+        "instrument_id": "42000958"
+      },
+      {
+        "date": "2025-07-31",
+        "instrument_id": "42007130"
+      },
+      {
+        "date": "2025-11-27",
+        "instrument_id": "42007060"
+      },
+      {
+        "date": "2026-01-30",
+        "instrument_id": "42009907"
+      },
+      {
+        "date": "2026-03-30",
+        "instrument_id": "42008160"
+      },
+      {
+        "date": "2026-05-29",
+        "instrument_id": "42002887"
+      },
+      {
+        "date": "2026-07-31",
+        "instrument_id": "42031754"
+      }
+    ]
+  },
+  "repair_log": [
+    {
+      "date_utc": "2026-10-04T06:16:59.835672+00:00",
+      "issue": "to_df() already scales fixed-point prices by 1e9; normalize() divided a second time. All OHLC multiplied by 1e9 in place; max per-file relative error ~1e-16. First run 2026-10-04 needed a second idempotent pass after a too-tight MNQ sanity bound (since widened).",
+      "files_repaired": 29,
+      "files_verified": 246,
+      "partition_hashes_updated": 246
+    }
+  ]
+}
